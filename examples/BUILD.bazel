@@ -1,0 +1,8 @@
+load("@rules_tectonic//tectonic:defs.bzl", "tectonic_pdf")
+
+# `bazel build //examples:smoke` from this repo's checkout proves the
+# rule wires up end-to-end. Consumers don't need this target.
+tectonic_pdf(
+    name = "smoke",
+    main = "smoke.tex",
+)

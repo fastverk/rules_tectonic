@@ -1,0 +1,13 @@
+# Public toolchain type for tectonic. Anything that wants to invoke
+# tectonic resolves this type and uses the resulting
+# TectonicToolchainInfo provider.
+#
+# Designed to lift-and-shift into a standalone `fastverk/rules_tectonic`
+# repo without code changes: the `//tectonic/...` labels become
+# `@rules_tectonic//tectonic/...` and the MODULE.bazel block in this
+# repo becomes a single `bazel_dep(name = "rules_tectonic", ...)`.
+
+toolchain_type(
+    name = "toolchain_type",
+    visibility = ["//visibility:public"],
+)

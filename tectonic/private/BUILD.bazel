@@ -1,0 +1,1 @@
+exports_files(["known_versions.bzl"])

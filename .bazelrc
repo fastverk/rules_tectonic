@@ -1,0 +1,9 @@
+common --enable_bzlmod
+
+# Fastverk registry first, BCR fallback. rules_github lives only in
+# fastverk; everything else (platforms, bazel_skylib) is in BCR.
+common --registry=https://raw.githubusercontent.com/fastverk/bazel-registry/main/
+common --registry=https://bcr.bazel.build/
+
+build --incompatible_strict_action_env
+build --action_env=PATH
