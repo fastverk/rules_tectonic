@@ -7,7 +7,7 @@ compile a top-level `.tex` (plus its srcs) into a PDF.
 
 module(
     name = "rules_tectonic",
-    version = "0.1.0",
+    version = "0.1.1",
     compatibility_level = 1,
 )
 

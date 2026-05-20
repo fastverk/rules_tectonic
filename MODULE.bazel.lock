@@ -109,7 +109,7 @@
     "//tectonic:extensions.bzl%tectonic": {
       "general": {
         "bzlTransitiveDigest": "ZktTb0mbZEO39u1qfCMF+pZxTkQVnvMIb/wsDagEzYA=",
-        "usagesDigest": "+IapJddRosOyFMkO/mwK7+LJt5u9A6oRgWQBjNizvMA=",
+        "usagesDigest": "XGqv8bgwS+cQyf+Gk8/kldTelr7Es3XHWMtUyImfn+A=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
